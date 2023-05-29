@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6A127A"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/logo">
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center">
+            <View
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FFEB3B">
+            </View>
+
+            <Button
+                android:id="@+id/btn_start_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Bắt đầu chơi"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"></Button>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <View
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FFEB3B">
+            </View>
+            <Button
+                android:id="@+id/btn_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Hướng dẫn"
+                android:textColor="#fff"
+                android:textSize="20sp"
+
+                android:textStyle="bold"></Button>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <View
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FFEB3B">
+            </View>
+
+            <Button
+                android:id="@+id/btn_out_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Thoát trò chơi"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"></Button>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_about"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/home_button_about" />
+
+        <ImageButton
+            android:id="@+id/btn_high_score"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/home_button_archivement" />
+
+        <ImageButton
+            android:id="@+id/btn_setting"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/home_button_setting" />
+    </TableRow>
+
+</LinearLayout>

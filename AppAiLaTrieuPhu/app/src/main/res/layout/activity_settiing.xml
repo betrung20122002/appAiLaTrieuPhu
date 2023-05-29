@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettiingActivity"
+    android:orientation="vertical"
+    android:background="#6A127A">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="364dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
+
+    <CheckBox
+        android:id="@+id/CBEffect"
+        android:layout_width="183dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="150dp"
+        android:checked="true"
+        android:text="Hiệu ứng"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/CBMusic"
+        android:layout_width="183dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="23dp"
+        android:checked="true"
+        android:text="Nhạc nền"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+       />
+
+</LinearLayout>
